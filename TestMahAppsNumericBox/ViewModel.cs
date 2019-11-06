@@ -3,6 +3,9 @@
     using System.ComponentModel;
     using System.Runtime.CompilerServices;
 
+    /// <summary>
+    /// Main ViewModel
+    /// </summary>
     public class ViewModel : INotifyPropertyChanged
     {
         private double _testValue;
